@@ -8,7 +8,9 @@ const app = express();
 
 app.use(cors());
 app.use(express.json({ limit: "5Mb" }));
+app.use("/uploads", express.static("uploads"));
 app.use(uploadRoutes);
+
 connectDB();
 app.listen(port, () => {
   console.log("App is running on port " + port);
