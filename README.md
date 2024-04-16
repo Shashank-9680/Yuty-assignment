@@ -27,7 +27,7 @@ Before running this application, make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/beauty-care-system.git
+   git clone https://github.com/Shashank-9680/Yuty-assignment.git
    ```
 
 2. Navigate to the project directory:
